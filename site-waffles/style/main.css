@@ -1,0 +1,23 @@
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    text-align: center;  
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+}
+figcaption{
+    text-align: right;
+    opacity: 0.5;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+a{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
