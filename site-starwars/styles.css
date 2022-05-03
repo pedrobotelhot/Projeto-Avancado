@@ -38,7 +38,30 @@ body{
     flex-direction: column;
     transform: translateY(-329px) translateX(1280px);
 }
+.blocks-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 li{
     list-style-type: none;
 }
 
+@media (max-width: 1104px) {
+    .block:nth-child(2) {
+      transform: translateY(-120px);
+      order: -1;
+    }
+    .blocks-container {
+      gap: 50px;
+    }
+    .block1 {
+      width: 500px;
+      min-height: 500px;
+    }
+    .block2 {
+        width: 500px;
+        min-height: 500px;
+    }
+}
