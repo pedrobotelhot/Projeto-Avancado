@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<header>
+    <h1>Dados IBGE</h1>
+</header>
+<body>
+    <div>
+    <h2>Escolha o Estado Desejado</h2>
+    <select id="states" onchange="mostrar_states"> 
+        <option></option>
+        </select>
+    </div>
+    <div>
+    <h2>Escolha a Cidade Desejado</h2>
+    <select id="city" onchange="mostrar_city"> 
+        <option></option>
+    </select>
+    </div>
+    <script>
+        function load() {
+            console.log("Evento de carregamento detectado!");
+        }
+      document.onload = load;
+    </script>
+    
+</body>
+</html>
